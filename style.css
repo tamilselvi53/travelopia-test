@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    height: max-content;
 }
 
 .header {
@@ -21,7 +20,14 @@
     justify-content: space-between;
 }
 
-.title-container {
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 510px;
+    width: 100%;
+}
+
+.container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,13 +40,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.button-container {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 20%;
-}
-
 .button {
     color: white;
     padding: 10px 20px;
@@ -48,7 +47,6 @@
     border: none;
     background-color: #d87818b2;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 .footer {
